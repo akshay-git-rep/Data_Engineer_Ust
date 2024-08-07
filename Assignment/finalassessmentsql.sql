@@ -92,7 +92,7 @@ DELETE FROM Student WHERE StdID = 1016;
 SELECT * FROM Student WHERE StdName LIKE 'G_' ; 
 SELECT * FROM Student WHERE StdName='G';
 SELECT * FROM Student WHERE StdName LIKE 'G%' ; 
-SELECT * WHERE Student WHERE StdName='%G%' ;
+SELECT * FROM Student WHERE StdName='%G%' ;
 
 -- Display all the streams in student table.
 SELECT DISTINCT Stream FROM Student;
